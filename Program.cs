@@ -28,11 +28,36 @@
 // 82 -> 10
 // 9012 -> 12
 
- Console.Write("Введите число: ");
-int A = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите число: ");
+// int num = int.Parse(Console.ReadLine()!);
+// int sum = 0;
+// string numstring = num.ToString(); 
+// for(int i=0; i< numstring.Length; i++){
+//      sum=sum+(numstring[i]-'0');
+
+// }
+// Console.WriteLine($"Сумма числа {num} = {sum}");
+
+// С Методом
+
+//  Console.Write("Введите число: ");
+//   int num = int.Parse(Console.ReadLine()!);
+
+//   Console.WriteLine($"Сумма числа {num} = {GetSum(num)}");
+
+// // // Методы
+//    int GetSum(int num){
+//    string numstring = num.ToString(); 
+//    int sum=0;
+//      for(int i=0; i< numstring.Length; i++){
+//        sum=sum+(numstring[i]-'0');
+//       }
+//     return sum;  
+//   }
 
 
 
 // Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран. (можно указать любой промежуток)
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
+
