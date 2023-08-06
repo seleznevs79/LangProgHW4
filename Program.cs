@@ -63,17 +63,21 @@
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
 
+// Console.Write("Задайте левую границу в пределах массива: ");
+// int min = int.Parse(Console.ReadLine()!);
+// Console.Write("Задайте правую границу в пределах массива: ");
+// int max = int.Parse(Console.ReadLine()!);
+// int maxx=max+1;
+// int[] array = GetRange(8);
+// Console.WriteLine($"[{String.Join(",", array)}]");
+// int[] newarray = array[min..maxx];
+// Console.WriteLine($"[{String.Join(",", newarray)}]");
 
-
-int[] array = GetRange(8);
-Console.WriteLine($"[{String.Join(",", array)}]");
-
-
-//method
-int[] GetRange(int size){
-int[] massive = new int[size];
-for(int i = 0; i < massive.Length; i++){
-massive[i] = new Random().Next(0,20);
-}
-return massive;
-}
+// //method
+// int[] GetRange(int size){
+// int[] massive = new int[size];
+// for(int i = 0; i < massive.Length; i++){
+// massive[i] = new Random().Next(0,20);
+// }
+// return massive;
+// }
